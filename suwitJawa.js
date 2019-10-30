@@ -1,4 +1,7 @@
-// Menangkap Pilihan Player
+var tanya = true;
+while ( tanya) {
+
+  // Menangkap Pilihan Player
 
 var pilih = prompt('pilih : gajah, semut, atau orang!')
 
@@ -42,3 +45,9 @@ if (pilih == komputer) {
 }
 
 alert('Kammu memilih : '+ pilih +' dan komputer memilih : '+ komputer +' \n Maka hasilnya : ' + hasilnya)
+
+tanya = confirm('lagi?')
+
+}
+
+alert('Terimakasih sudah bermain!')
